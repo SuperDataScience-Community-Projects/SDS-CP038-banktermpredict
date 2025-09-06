@@ -13,13 +13,13 @@ plotly
 scikit-learn
 xgboost
 lightgbm
-# catboost
+catboost
 
 # Deep learning
-# tensorflow
-# keras
-# torch
-# torchvision
+tensorflow
+keras
+torch
+torchvision
 
 # Data processing
 scipy
@@ -44,5 +44,5 @@ tqdm
 streamlit
 
 # Optional: Data connectors
-# sqlalchemy
-# openpyxl
+sqlalchemy
+openpyxl
