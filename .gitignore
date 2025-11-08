@@ -1,6 +1,7 @@
-# Include any files you want to ignore (do not want to push to GitHub)
-.ipynb_checkpoints
 .DS_Store
+*.ipynb_checkpoints/
+__pycache__/
+=======
 .env
 
 # Data files
