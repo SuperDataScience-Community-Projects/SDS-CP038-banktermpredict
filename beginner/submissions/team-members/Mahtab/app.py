@@ -17,7 +17,7 @@ logging.getLogger('sklearn').setLevel(logging.ERROR)
 st.set_page_config(page_title="Term Deposit Prediction", page_icon="🏦", layout="centered")
 
 # --- Load Model ---
-MODEL_FILE = "bankterm_pipeline.pkl"   # <-- same folder as app.py
+MODEL_FILE = "bankterm_pipeline.pkl"  
 LOCKED_THRESHOLD = 0.45
 
 @st.cache_resource
