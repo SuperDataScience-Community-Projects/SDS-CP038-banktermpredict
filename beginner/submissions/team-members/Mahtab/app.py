@@ -89,12 +89,12 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- App Title (CHANGED text) ---
+#  App Title (CHANGED text) ---
 st.markdown('<div class="big-title">🏦 Term Deposit Predictor</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Mahtab’s Streamlit App • Locked threshold decision</div>', unsafe_allow_html=True)
 st.info(f"Threshold (locked): {LOCKED_THRESHOLD:.2f}")
 
-# --- Input Section Card (CHANGED text) ---
+# Input Section Card (CHANGED text) ---
 st.markdown("""
 <div class="input-card">
   <span style="font-size:1.15em; color:#1f2d3d; font-weight:700;">🧾 Client Information</span>
@@ -140,7 +140,7 @@ X_input = pd.DataFrame([{
     "poutcome": poutcome
 }])
 
-# --- Predict Button (CHANGED hint text) ---
+#  Predict Button (CHANGED hint text)
 st.markdown("""<div style="margin-top: -0.8em; font-size:1.05em; color:#6b4eff; font-weight:600;">⬇️ Click “Predict” to get the result</div>""",
             unsafe_allow_html=True)
 
@@ -162,7 +162,7 @@ if st.button("🎯 Predict"):
     st.write(f"**Threshold used:** {LOCKED_THRESHOLD:.2f}")
     st.markdown('</div>', unsafe_allow_html=True)
 
-# --- Footer (CHANGED text) ---
+# Footer (CHANGED text)
 st.markdown("---")
 st.markdown("""
 **What is this for?**  
